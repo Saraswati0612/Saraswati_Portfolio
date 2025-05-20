@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-follower"></div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <span class="logo-text">Saraswati.</span>
+        </div>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="text-content animated">
+                <!-- Heading -->
+                <h1 class="animate-text">Hello, I'm <span class="highlight">Saraswati Thorat</span></h1>
+                <div class="typing-container">
+                    <span id="typewriter"></span><span class="cursor"></span>
+                </div>
+                <p class="hero-description">A passionate Java Developer skilled in Spring Boot, ReactJS, and REST APIs — transforming ideas into secure, scalable applications.</p>
+
+                <!-- Buttons -->
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                    <a href="#projects" class="btn secondary-btn">See My Work</a>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image animated">
+                <div class="image-container">
+                    <img src="C:\Users\Jay\Desktop\Portfolio\Portfolio.jpg" alt="Profile Image" class="profile-image">
+                    <div class="floating-shape shape1"></div>
+                    <div class="floating-shape shape2"></div>
+                    <div class="floating-shape shape3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <a href="#about" class="scroll-indicator" id="scroll-down">
+    <span>Scroll Down</span>
+    <div class="mouse">
+        <div class="wheel"></div>
+    </div>
+</a>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">My Introduction</div>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="C:\Users\Jay\Downloads\—Pngtree—japanese cartoon style .jpg" alt="About Me Image">
+                    <div class="experience-badge">
+                        <div class="badge-content">
+                            <span class="badge-number">Fresh</span>
+                            <span class="badge-text">Graduate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I’m a passionate and enthusiastic Java Full Stack Developer with hands-on training in technologies like Java, Spring Boot, Hibernate, MySQL, HTML, CSS, JavaScript, Bootstrap, and ReactJS.</p>
+                    <p>Through my internship at GTL Software Pvt. Ltd. and the Wipro TalentNext Full Stack Development program, I’ve worked on real-time projects involving CRUD operations, form validation, and REST API integration. These experiences have helped me build a strong foundation in both backend and frontend development.</p>
+                    <p>I enjoy learning new technologies, solving real-world problems, and writing clean, maintainable code. I'm now looking for opportunities to gain professional experience, grow as a developer, and contribute meaningfully to real-world projects.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h3>Frontend</h3>
+                            <p>Crafting beautiful, responsive user interfaces</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-server"></i></div>
+                            <h3>Backend</h3>
+                            <p>Building robust server-side applications</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h3>Mobile</h3>
+                            <p>Developing cross-platform mobile apps</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn primary-btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="skills" class="skills">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">My Skills</h2>
+      <div class="section-subtitle">Technical Expertise</div>
+      <div class="section-underline"></div>
+    </div>
+
+    <div class="skills-tabs">
+      <button class="tab-btn active" data-target="frontend">Frontend</button>
+      <button class="tab-btn" data-target="backend">Backend</button>
+      <button class="tab-btn" data-target="tools">Tools</button>
+    </div>
+
+    <div class="tab-content">
+
+      <!-- Frontend -->
+      <div id="frontend" class="tab-pane active">
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="HTML">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="skill-icon"/>
+            <h3>HTML</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="90%"></div></div>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-card" data-skill="CSS">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="skill-icon"/>
+            <h3>CSS</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="85%"></div></div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-card" data-skill="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="skill-icon"/>
+            <h3>JavaScript</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="80%"></div></div>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="skill-card" data-skill="React">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="skill-icon"/>
+            <h3>React JS</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="75%"></div></div>
+            <span class="skill-percent">75%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div id="backend" class="tab-pane">
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="Java">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="skill-icon"/>
+            <h3>Java</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="85%"></div></div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-card" data-skill="Spring Boot">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="skill-icon"/>
+            <h3>Spring Boot</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="70%"></div></div>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-card" data-skill="Node.js">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="skill-icon"/>
+            <h3>Node.js</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="75%"></div></div>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="skill-card" data-skill="MongoDB">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="skill-icon"/>
+            <h3>MongoDB</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="65%"></div></div>
+            <span class="skill-percent">65%</span>
+          </div>
+          <div class="skill-card" data-skill="SQL">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="skill-icon"/>
+            <h3>SQL</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="70%"></div></div>
+            <span class="skill-percent">70%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div id="tools" class="tab-pane">
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="Git">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="skill-icon"/>
+            <h3>Git</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="85%"></div></div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-card" data-skill="Figma">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="skill-icon"/>
+            <h3>Figma</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="75%"></div></div>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="skill-card" data-skill="Eclipse">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" class="skill-icon"/>
+            <h3>Eclipse</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="80%"></div></div>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="skill-card" data-skill="JetBrains">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" class="skill-icon"/>
+            <h3>JetBrains</h3>
+            <div class="skill-progress"><div class="progress-bar" data-percent="70%"></div></div>
+            <span class="skill-percent">70%</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="section-subtitle">Recent Works</div>
+                <div class="section-underline"></div>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                         <img src="/api/placeholder/400/300" alt="Project 1"> 
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">AI Email Generater</h3>
+                        <p class="project-description">Created an AI-powered email generator with customizable templates, automated workflows, and enhanced processing speed by 50% for improved user efficiency.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ReactJS</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Spring AI</span>
+                            <span class="tech-tag">RESTful APIs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">UserHub Website</h3>
+                        <p class="project-description">Built a full stack CRUD app with seamless API integration, efficient data handling, and thorough testing for a smooth user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ReactJS</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+               
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                         <img src="/api/placeholder/400/300" alt="Project 3"> 
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Banking Web App</h3>
+                        <p class="project-description">Developed a full stack CRUD application with seamless API integration, efficient data management, form validation, and a responsive user interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Thymeleaf</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">RESTful APIs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 4">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Beautifflie Cosmatic Website</h3>
+                        <p class="project-description">Developed an e-commerce website for Beautifflie Cosmetics with product listings, user authentication, and a responsive UI for a seamless shopping experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ReactJS</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 5">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Software Company Website</h3>
+                        <p class="project-description">Developed and maintained customized, scalable MLM software solutions at Senzense Corporation, supporting multiple popular MLM plans with advanced features tailored to diverse business models.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="design">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/300" alt="Project 6">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">A personal portfolio website featuring a modern design, smooth animations, responsive layout, interactive sections, and dynamic project showcases to highlight skills and work effectively.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-subtitle">Get In Touch</div>
+                <div class="section-underline"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>saraswatithorat2151@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 8421810422</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Pune, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn primary-btn submit-btn">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Saraswati.</span>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Saraswati Thorat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
